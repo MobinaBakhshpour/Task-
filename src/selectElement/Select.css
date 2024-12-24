@@ -1,0 +1,19 @@
+.select {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 0.5rem;
+    padding: 0 1rem;
+    border-radius: 0.5rem;
+    background-color: #ECEFF1;
+}
+
+.groupCheckboxIcon {
+    align-items: center;
+    display: flex;
+}
+
+#arrow {
+    transition: all 180ms ease-in 80ms;
+}

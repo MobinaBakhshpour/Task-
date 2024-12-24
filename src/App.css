@@ -1,7 +1,12 @@
-body{
-  background-color: #546E7A;
+:root {
+  --bgColor: rgba(75, 85, 99, 1);
 }
-.App{
+
+body {
+  background-color: var(--bgColor);
+}
+
+.App {
   display: flex;
   flex-direction: row;
   justify-content: center;
