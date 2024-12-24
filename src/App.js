@@ -1,13 +1,11 @@
 import './App.css';
-import React from 'react';
+import React ,{ useState} from 'react';
 import Box from './box/Box';
 import Select from './selectElement/Select';
 import dataList from './datas';
 
 function App() {
-  console.log(dataList);
-
-  return (
+return (
     <div className="App">
       <Box title="All Data" name="Add">
         <div className="selects">
