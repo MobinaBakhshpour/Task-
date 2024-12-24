@@ -3,6 +3,7 @@ import './Select.css';
 import React from 'react';
 import { IoIosArrowDown } from "react-icons/io";
 
+
 export default function Select(props) {
 
     function clickArrow() {
@@ -16,7 +17,7 @@ export default function Select(props) {
 
     return (
         <div className="select">
-            <span className="idName">{props.id}</span>
+            <span className="idName">{props.idElm}</span>
             <p className='quantity'>quantity :{props.quantity}</p>
             <div className='groupCheckboxIcon'>
                 <input type="checkbox" name="checkbox" id="" />
